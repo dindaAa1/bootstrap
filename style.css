@@ -1,0 +1,72 @@
+.banner {
+    background: url("https://lh3.googleusercontent.com/pw/AP1GczO2E-6x-yTrSyZJ6pXpSJyxnr_WZltU3-81MEASme2oDYkICqHaHV8D--wvP2zfl6cofoY_F3oCKRosjmJN_9Ua3wSFFmYDP8mqIaiN2wUd40rNAWUyL0bgZCLja3SvqZWEcOgRp9lehB_9jizU3y4-=w1439-h953-s-no-gm?authuser=0") 
+    no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: wheat;
+}
+
+.Lingkaran{
+display: inline-block;
+border-radius: 50%;
+width: 150px;
+margin: auto;
+height: 150px;
+color: white;
+background-color: rgb(207, 14, 7);
+}
+
+.Lingkaran i {
+    position: relative;
+    top: 30px;
+} 
+
+    .jurusan {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  font-family: sans-serif;
+}
+
+.jurusan h2 {
+  margin-bottom: 30px;
+  color: #0a74da;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+.card img {
+  max-width: 80px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin: 5px 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.konsentrasi .card {
+  margin: 10px; /* kasih jarak 10px antar card */
+}
